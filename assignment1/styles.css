@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.b{
+    display: flex;
+    justify-content: space-around;
+}
+.a{
+    text-align: left;
+    margin-top: 30px;
+    width: 300px;
+
+}
+.ab
+{
+    background-color:aquamarine;
+    padding: 20px;
+}
+.ab button{
+    margin: 1px;
+    padding: 5px;
+    background-color: rgb(37, 37, 206);
+    border-radius: 15rem;
+}
+.ab p{
+    padding: 10px;
+}
+.a button{
+    background-color: grey;
+    border-radius: 15rem;
+    
+}

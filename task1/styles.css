@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: grey;
+     padding-right: 29.5px;    
+     padding-left: 30px;
+     padding-top: 200px;
+     
+}
+.card{
+    background-color: orange;
+     margin-top: 30px;
+     align-items: center; 
+    width: 800px;   
+    height: 170px;
+   padding-top: 20px;
+    text-align: center;
+   flex: 0 0 300px;
+   justify-content: center;
+}
+.side{
+    text-align: center;
+    background-color: violet;
+    width: 100px;
+    
+}
+.common{
+    display: flex;
+    height: 100vh;
+}

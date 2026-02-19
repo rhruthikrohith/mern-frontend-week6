@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero {
+    background-image: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.hero-content button {
+    padding: 10px 25px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.section {
+    padding: 80px;
+    background-color: lightgray;
+}
+.outdoor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.outdoor-text {
+    width: 50%;
+}
+.outdoor-text h2 {
+    color: navy;
+    margin-bottom: 20px;
+}
+.outdoor-text p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+.outdoor-image {
+    width: 35%;
+}
+.outdoor-image img {
+    width: 100%;
+}
+.types h2 {
+    color: navy;
+    margin-bottom: 30px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.card {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+.card img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+.card p {
+    font-size: 14px;
+}
+.bottom {
+    text-align: center;
+    padding: 80px 0;
+    background-color: white;
+}
+.bottom h2 {
+    color: navy;
+    margin-bottom: 20px;
+}
+.tabs span {
+    margin: 0 15px;
+    font-size: 14px;
+    color: navy;
+    cursor: pointer;
+}
